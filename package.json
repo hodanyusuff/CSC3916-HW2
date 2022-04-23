@@ -1,0 +1,33 @@
+{
+  "name": "csc3916-hw2",
+  "version": "1.0.0",
+  "description": "web API 3916 hw2",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hodanyusuff/CSC3916-HW2.git"
+  },
+  "keywords": [
+    "Movie"
+  ],
+  "author": "Hodan Yusuf",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hodanyusuff/CSC3916-HW2/issues"
+  },
+  "homepage": "https://github.com/hodanyusuff/CSC3916-HW2#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.0.0",
+    "http": "^0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "passport": "^0.5.2",
+    "passport-http": "^0.3.0",
+    "passport-jwt": "^4.0.0"
+  }
+}
